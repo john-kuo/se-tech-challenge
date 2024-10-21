@@ -1,0 +1,65 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "core-js": "^3.31.1",
+    "vue": "^3.5.12",
+    "vuetify": "^3.7.2",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.8",
+    "@babel/eslint-parser": "^7.12.16",
+    "@babel/preset-env": "^7.25.8",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-plugin-unit-jest": "^5.0.8",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/test-utils": "^2.4.0-alpha.2",
+    "@vue/vue3-jest": "^27.0.0",
+    "babel-jest": "^27.0.0",
+    "eslint": "^8.41.0",
+    "eslint-plugin-vue": "^9.14.1",
+    "jest": "^27.0.0",
+    "jest-environment-jsdom": "^27.0.0",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^13.2.2",
+    "webpack": "^5.94.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "jest": {
+    "preset": "@vue/cli-plugin-unit-jest/presets/no-babel"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
